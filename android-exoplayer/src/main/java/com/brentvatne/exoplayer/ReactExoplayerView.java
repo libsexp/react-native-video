@@ -316,7 +316,7 @@ class ReactExoplayerView extends FrameLayout implements
         // Setting the player for the playerControlView
         playerControlView.setPlayer(player);
         playerControlView.show();
-        playPauseControlContainer = playerControlView.findViewById(com.google.android.exoplayer2.R.id.exo_play_pause_container);
+        playPauseControlContainer = playerControlView.findViewById(R.id.exo_play_pause_container);
 
         // Invoking onClick event for exoplayerView
         exoPlayerView.setOnClickListener(new OnClickListener() {
